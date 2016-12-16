@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+     <title>Uitvinding.html</title>
+</head>
+<body>
+ <header class="Header">
+ <h1> Wat heeft hij uitgevonden?</h1>
+ </header>
+ <nav>
+  <ul class="Menu">
+    <li> <a href="/index.html">Home</a></li>
+    <li> <a href="/turing-award.html">Turing Award</a></li>
+    <li> <a href="/winnen.html">Winnen</a></li>
+    <li> <a href="/eerdere-winnaars.html">Eerdere winnaars</a></li>
+    <li> <a href="/geldbedrag.html">Geldbedrag</a></li>
+    <li> <a href="/opleiding.html">Opleiding</a></li>
+    <li> <a href="/carriere.html">Carriere</a></li>
+    <li> <a href="#">Uitvinding</a></li>
+    <li> <a href="/met-wie.html">Partner</a></li>
+    <li> <a href="/gevolgen.html">Gevolgen</a></li>
+  </ul>
+ </nav>
+<section class="text">
+  <article>
+  <h1><h1>
+<p> Het diffie-hellman-sleuteluitwisselingsprotocol is een cryptografisch protocol, waarmee twee deelnemers die verder niets van elkaar weten over een onbeveiligd communicatiekanaal een geheime encryptiesleutel kunnen uitwisselen, die daarna kan worden gebruikt om communicatie tussen de deelnemers te versleutelen. Dit principe wordt bijvoorbeeld gebruikt voor Virtual Private Networks (VPN's) gebaseerd op IPsec.</p>
+<p> Het idee achter dit algoritme is dat iemand mee kan luisteren en elke boodschap tussen Alice en Bob onderschept kan worden. De kunst is dus om de boodschappen zo te formuleren dat alleen Alice en Bob weten waar het over gaat. Hiervoor moeten zij vooraf een onderlinge versleuteling afspreken. Het Diffie-Hellman sleutelwisselingsprotocol maakt dit mogelijk zonder dat meeluisteraars de versleuteling kunnen onderscheppen.</p>
+
+<h4>De volgende stappen worden uitgevoerd:</h4>
+
+<ol>
+ <li>Alice bedenkt een priemgetal p en een basisgetal g. </li>
+ <li> Alice verzint een geheim getal a. Vervolgens berekent ze op basis van a, p en g het getal A.</li>
+ <li> Alice verstuurt p, g en A naar Bob.</li>
+ <li> Bob verzint ook een geheim getal b en berekent op basis van de ontvangen p en g op dezelfde manier het getal B dat hij naar Alice stuurt.
+ <li> Bob berekent op basis van A,b en p het gemeenschappelijke geheime getal K.</li>
+ <li> Alice berekent eveneens het gemeenschappelijke geheime getal K, maar dan op basis van B, a en p.</li>
+</ol>
+<br/><p>De getallen p, g, A en B zijn publiek, wat wil zeggen dat iedereen die meeluistert, deze getallen kan onderscheppen.<br/> 
+Maar het gemeenschappelijke getal dat Alice en Bob hebben berekend, is geheim, want om dat te berekenen is a of b nodig. Dit getal kunnen ze dus gebruiken om hun berichten naar elkaar toe te versleutelen.<br/>
+Voor een buitenstaander is het zeer moeilijk om de geheime sleutel ("key") K te achterhalen zonder a of b, want er zijn namelijk vele manieren om met p en g tot A of B te komen.</p>
+ 
+ </article>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Diffie-Hellman-Schl%C3%BCsselaustausch.png/400px-Diffie-Hellman-Schl%C3%BCsselaustausch.png">
+</section>
+
+<footer>
+  Â© Shain en Bo - 2016-2017
+</footer>
+
+</body>
+</html>
