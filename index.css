@@ -1,0 +1,104 @@
+
+p {
+  color: #000000;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 150%;
+  font-weight: bolder;
+  }
+
+body {
+  background-color: #B0E0E6;
+}
+
+.Titel{
+  background-color: #66A3D2;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  color: #033e6b;
+  text-align: right;
+  width: auto;
+}
+
+.Menu {
+  background-color: #3F92D2;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  color: #87CEFA;
+  font-size: 20px;
+  list-style-type: none;
+  text-align: center;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+footer{
+  background-color: #66A3D2;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  color: #033e6b;
+}
+
+input{
+  width: 25%;
+  
+}
+form{
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: bolder;
+}
+.vraag {
+  height: 150px;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    background-color: #3F92D2;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 5px 10px;
+    overflow: auto;
+
+    background-color: #333;
+}
+
+.Menu li {
+  float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+  img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    width: 275%;
+    text-align: center
+}
+
+.belangrijk {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: bolder;
+  font-variant: inherit;
+  }
+
+
+
+.Opsomming {
+  background-color: #B0E0E6;
+  list-style-type: circle;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: bold
+}
